@@ -3,15 +3,23 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress": "cypress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorprogrammer93/exercicio_cypress.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/igorprogrammer93/exercicio_cypress/issues"
+  },
+  "homepage": "https://github.com/igorprogrammer93/exercicio_cypress#readme",
   "description": "",
   "devDependencies": {
-    "cypress": "^14.0.0"
+    "cypress": "^12.6.0"
   }
 }
